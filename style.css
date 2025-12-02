@@ -1,6 +1,6 @@
 header {
     display: flex;
-    max-height: 250px;
+    max-height: 200px;
     background-color: brown;
     font-weight: bold;
     border-style: solid;
@@ -8,12 +8,11 @@ header {
     border-color: black;
 }
 
-
 header .Title {
     font-size: 100px;
     color: azure;
     align-self: center;
-    margin-left: 4%;
+    margin-left: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: black 5px 10px;
 }
@@ -21,6 +20,28 @@ header .Logo {
     margin-left: 1%;
     align-self: center;
     max-width: 10%;
+    max-height: 145px;
     border: solid;
     border-radius: 10px;
+    border-style: solid;
+}
+
+
+nav {
+    background-color: #444444;
+    min-height: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li {
+    border-style: solid;
+    margin-left: 10px;
+    vertical-align:middle;
 }
