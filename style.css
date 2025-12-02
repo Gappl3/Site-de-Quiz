@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    max-height: 250px;
+    background-color: brown;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: black;
+}
+
+
+header .Title {
+    font-size: 100px;
+    color: azure;
+    align-self: center;
+    margin-left: 4%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: black 5px 10px;
+}
+header .Logo {
+    margin-left: 1%;
+    align-self: center;
+    max-width: 10%;
+    border: solid;
+    border-radius: 10px;
+}
