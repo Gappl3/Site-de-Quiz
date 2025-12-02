@@ -45,3 +45,11 @@ nav ul li {
     margin-left: 10px;
     vertical-align:middle;
 }
+
+.game_section {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: solid, black, 15px;
+}
