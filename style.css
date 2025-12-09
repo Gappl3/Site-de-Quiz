@@ -3,12 +3,40 @@ header {
     max-height: 200px;
     background-color: brown;
     font-weight: bold;
-    border-style: solid;
-    border-radius: 2%;
-    border-color: black;
+    border: solid black 2%;
 }
 
-header .Title {
+body {
+    background-color: azure;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #444444;
+    border: solid black 8px;
+}
+nav ul {
+    list-style: none;
+}
+
+/* nav ul li {
+    margin-left: auto;
+    border-style: solid;
+    vertical-align: middle;
+    background-color: black;
+
+} */
+
+nav ul li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.Title {
     font-size: 100px;
     color: azure;
     align-self: center;
@@ -16,40 +44,47 @@ header .Title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: black 5px 10px;
 }
-header .Logo {
+
+.Logo {
     margin-left: 1%;
     align-self: center;
     max-width: 10%;
     max-height: 145px;
-    border: solid;
-    border-radius: 10px;
-    border-style: solid;
-}
-
-
-nav {
-    background-color: #444444;
-    min-height: 50px;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-nav ul li {
-    border-style: solid;
-    margin-left: 10px;
-    vertical-align:middle;
+    border: solid 10px;
 }
 
 .game_section {
-    display: flex;
-    align-self: center;
     justify-content: center;
-    align-items: center;
-    border: solid, black, 15px;
+    height: 500px;
+    background-color: #444444;
+    margin-top: 10px;
+    border: solid black 15px;
+}
+
+.game_section li {
+    list-style: none;
+}
+
+.question_title {
+    vertical-align: top;
+    text-align: center;
+    
+    height: 25px;
+    width: 1200px;
+    vertical-align: top;
+    color: whitesmoke;
+    text-align: center;
+}
+.main_button {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: white solid 5px;
+    background-color: darkgray;
+}
+
+.main_button:hover {
+    background-color: gray;
 }
